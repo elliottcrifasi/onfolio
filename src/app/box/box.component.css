@@ -1,0 +1,46 @@
+h1 {
+    font-family: Yellowtail, cursive;
+    
+}
+p {
+    
+ font-family: 'Open Sans', sans-serif;
+}
+/** CONTAINER STYLES **/
+.box {
+    display: block;
+    box-shadow: 1px 1px 10px rgba(92, 92, 92, 0.85);
+    width: 80%;
+    margin: auto;
+    opacity: 0.85;
+    margin-bottom: 35px;
+    color: white;
+    height: 500px;
+    z-index: 0;
+}
+.box-window {
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background: #395B6A;
+    -webkit-box-shadow:0 4px 4px -4px #000;
+    box-shadow:0 4px 4px -4px #000;
+    border-bottom: 10px solid #395B6A;
+}
+.window-content {
+    border-radius: 100%;
+    width: 20%;
+    vertical-align:middle;
+    border: 10px solid #395B6A;
+    position: relative;
+    top: 70px;
+    -webkit-box-shadow:0 4px 4px -4px #000;
+    box-shadow:0 4px 4px -4px #000;
+}
+.box p, .box h1 {
+    padding: 15px;
+    margin-bottom: 75px;
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
